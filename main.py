@@ -32,7 +32,7 @@ def search_team():
 
 
 while True:
-    print("\n=== FOOTBALL TRACKER ===")
+    print("\n=== FOOTBALL MATCH TRACKER ===")
     print("1. View Teams")
     print("2. Search Team")
     print("3. Exit")
