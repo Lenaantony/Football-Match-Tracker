@@ -1,6 +1,10 @@
 import requests
+import os
+from dotenv import load_dotenv
 
-API_KEY="bcf4590cebdb4c619fa1cf7b3e371cbe"
+load_dotenv()
+
+API_KEY=os.getenv("FOOTBAL_API_KEY")
 headers={"X-Auth-Token":API_KEY}
 
 def get_competitions():
