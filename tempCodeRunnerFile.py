@@ -108,14 +108,10 @@ def leagues():
 
         else:
             print("Invalid choice.")
-    
 
 print("\n=== FOOTBALL TEAM TRACKER ===")
 while True:
     view_competitions()
     leagues()
-    c=input("\nWant to exit from system(y/n):")
-    if c.lower() =="y":
-        break
     
 
